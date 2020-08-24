@@ -12,7 +12,7 @@ public class MinAndMax {
 			Integer minValue = intList.stream()
 													  .min(Integer::compareTo).get();
 			
-			System.out.println(minValue);
+			System.out.println("Min Value is : "+minValue);
 			
 			Optional<Integer> maxValue = intList.stream()
 					  .max((a, b) -> a.compareTo(b));
