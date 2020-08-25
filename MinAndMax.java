@@ -16,6 +16,7 @@ public class MinAndMax {
 			
 			Optional<Integer> maxValue = intList.stream()
 					  .max((a, b) -> a.compareTo(b));
+		        System.out.println("Commiting it only to test brach ..");
 			
 			System.out.println(maxValue);
 
